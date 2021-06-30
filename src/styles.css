@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  padding: 50px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+ul li {
+  padding: 5px 0;
+}
+
+.pokemonList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pokemonList > div {
+  background: blue;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 2em;
+  background: #28fdff;
+  font-size: 0.5em;
+  flex-basis: 25%;
+  border: 1px solid black;
+  margin-left: 2em;
+  margin-right: 2em;
+}
